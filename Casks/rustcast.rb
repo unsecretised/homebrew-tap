@@ -13,4 +13,8 @@ cask "rustcast" do
   depends_on macos: ">= :ventura"
 
   app "Rustcast.app"
+  postflight do:
+    system_command "/usr/bin/xattr",
+      args: ["-cr", "/Applications/Rustcast.app/"],
+      sudo: false
 end
