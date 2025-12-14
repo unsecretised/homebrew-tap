@@ -18,4 +18,5 @@ cask "rustcast" do
     system_command "/usr/bin/xattr",
       args: ["-cr", "/Applications/Rustcast.app/"],
       sudo: false
+  end
 end
