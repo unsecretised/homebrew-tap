@@ -4,8 +4,8 @@ cask "rustcast" do
 
   version "0.2.9"
 
-  sha256 arm:   "2ebf908295f77873de806dc974c7d704c3e71fe0f9be5090aacd8ac85282f78f",
-         intel: "d81f5282298392a5101e8d7ed46ee7e1ab10772a7e17a24f9a22c9ad0c896361"
+  sha256 arm:   "5cac44777b94abc7ddfec42d8c9b79c72f2a2d4fab6d6cb6034278ca64efa35e",
+         intel: "6fa2648ef0e8cc6472c314e77b4e949c84acb70c94edc06b044ddf667b0c34a1"
 
   url "https://github.com/unsecretised/rustcast/releases/download/v#{version}/rustcast-#{arch}.app.zip",
       verified: "github.com/unsecretised/rustcast/"
