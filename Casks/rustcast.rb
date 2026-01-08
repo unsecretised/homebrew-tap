@@ -2,10 +2,10 @@ cask "rustcast" do
   arch arm: "aarch64-apple-darwin",
        intel: "x86_64-apple-darwin"
 
-  version "0.3.1"
+  version "0.3.2"
 
-  sha256 arm:   "f09ff2cdaafe1679dbb8f227b609b93f31aef991e85257733fffacb2842c60c2",
-         intel: "e4a7879606f4b90d127b6ce8ff9682e3eb428625486c6ef5063c0fedd8fd85f3"
+  sha256 arm:   "3d94a87e05005a423209c6bd355663066904b31f50af49ab89563d6d09e76f71",
+         intel: "d4b0441d5ff13812f071e41bdc687db0f7e385dfbb564bb04f9b1daea079cd8c"
 
   url "https://github.com/unsecretised/rustcast/releases/download/v#{version}/rustcast-#{arch}.app.zip",
       verified: "github.com/unsecretised/rustcast/"
