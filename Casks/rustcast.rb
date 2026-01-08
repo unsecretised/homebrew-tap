@@ -13,6 +13,6 @@ cask "rustcast" do
 
   depends_on macos: ">= :ventura"
 
-  app "Rustcast.app"
+  app "target/release/macos/Rustcast.app"
 
 end
