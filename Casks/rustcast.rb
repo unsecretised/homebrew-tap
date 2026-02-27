@@ -7,7 +7,7 @@ cask "rustcast" do
   url "https://github.com/unsecretised/rustcast/releases/download/v#{version}/Rustcast-universal-macos.app.zip"
 
   name "Rustcast"
-  desc "Utility tooling for your system"
+  desc "Utility tooling popup window for your system"
   homepage "https://github.com/unsecretised/rustcast"
 
   depends_on macos: ">= :big_sur"
