@@ -1,6 +1,6 @@
 cask "rustcast" do
 
-  version "0.5.7"
+  version "0.5.8"
 
   sha256 "40d9141ab58b12d07de35bac1a608c0ff000c20a8b0ea59ae4732e98abac3c1e"
 
