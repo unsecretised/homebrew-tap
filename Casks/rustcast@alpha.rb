@@ -1,4 +1,4 @@
-cask "rustcast-alpha" do
+cask "rustcast@alpha" do
   version "0.6.1-alpha"
   sha256 "b26007e5bc55cb7dfc5387bcf230a444921af8134893132408b3714cf136dfc5"
 
