@@ -12,6 +12,8 @@ cask "rustcast" do
 
   depends_on macos: ">= :big_sur"
 
+  auto_updates true
+
   app "target/release/macos/Rustcast.app"
 
   livecheck do
