@@ -8,7 +8,7 @@ cask "rustcast" do
 
   name "Rustcast"
   desc "Utility tooling popup window for your system"
-  homepage "https://github.com/unsecretised/rustcast"
+  homepage "https://rustcast.app"
 
   depends_on macos: ">= :big_sur"
 
