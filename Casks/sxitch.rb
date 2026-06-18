@@ -8,8 +8,8 @@ cask "sxitch" do
   homepage "https://sxitch.app"
 
   livecheck do
-    url "https://sxitch.app"
-    regex(/href=.*?v?(\d+(?:\.\d+)+[\w-]*)\/Sxitch-universal-macos\.app\.zip/i)
+    url "https://storage.sxitch.app/version.txt"
+    regex(/^v?(\d+(?:\.\d+)+[\w-]*)$/i)
   end
 
   auto_updates false
