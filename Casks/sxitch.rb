@@ -3,18 +3,18 @@ cask "sxitch" do
 
   sha256 "b015eba192c950bbf739b2e20dbaa6e58a0b7762550bfbdec6033130d1e9b626"
 
-  url "https://storage.sxitch.app/Sxitch-universal-macos.app.zip"
+  url "https://storage.sxitch.app/#{version}/Sxitch-universal-macos.app.zip"
   name "Sxitch"
   desc "Tree based app switcher"
   homepage "https://sxitch.app"
 
   livecheck do
-    url :url
-    regex(/^v?(\d+(?:\.\d+)+)$/i)
+    url "https://sxitch.app"
+    regex(/href=.*?Sxitch[._-]v?(\d+(?:\.\d+)+[\w-]*)\.app\.zip/i)
   end
 
   auto_updates false
-  depends_on macos: :big_sur
+  depends_on macos: :sequoia
 
   app "target/release/macos/Sxitch.app"
 
