@@ -1,6 +1,5 @@
 cask "sxitch" do
   version "1.0.7-alpha"
-
   sha256 "b015eba192c950bbf739b2e20dbaa6e58a0b7762550bfbdec6033130d1e9b626"
 
   url "https://storage.sxitch.app/v#{version}/Sxitch-universal-macos.app.zip"
@@ -10,15 +9,15 @@ cask "sxitch" do
 
   livecheck do
     url "https://sxitch.app"
-    regex(/href=.*?Sxitch[._-]v?(\d+(?:\.\d+)+[\w-]*)\.app\.zip/i)
+    regex(/href=.*?v?(\d+(?:\.\d+)+[\w-]*)\/Sxitch-universal-macos\.app\.zip/i)
   end
 
   auto_updates false
-  depends_on macos: :sequoia
+  depends_on macos: ">= :monterey"
 
   app "target/release/macos/Sxitch.app"
 
   zap trash: [
-    "~/Library/Application Support/Sxitch/*",
+    "~/Library/Application Support/Sxitch",
   ]
 end
