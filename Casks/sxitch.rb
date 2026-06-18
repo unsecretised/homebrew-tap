@@ -13,7 +13,7 @@ cask "sxitch" do
   end
 
   auto_updates false
-  depends_on macos: ">= :monterey"
+  depends_on macos: :monterey
 
   app "target/release/macos/Sxitch.app"
 
