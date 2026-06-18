@@ -13,7 +13,7 @@ cask "sxitch" do
     regex(/^v?(\d+(?:\.\d+)+)$/i)
   end
 
-  auto_updates true
+  auto_updates false
   depends_on macos: :big_sur
 
   app "target/release/macos/Sxitch.app"
