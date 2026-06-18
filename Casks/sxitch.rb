@@ -3,7 +3,7 @@ cask "sxitch" do
 
   sha256 "b015eba192c950bbf739b2e20dbaa6e58a0b7762550bfbdec6033130d1e9b626"
 
-  url "https://storage.sxitch.app/#{version}/Sxitch-universal-macos.app.zip"
+  url "https://storage.sxitch.app/v#{version}/Sxitch-universal-macos.app.zip"
   name "Sxitch"
   desc "Tree based app switcher"
   homepage "https://sxitch.app"
