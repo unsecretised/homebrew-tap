@@ -14,7 +14,7 @@ cask "sxitch" do
 
   zap trash: [
     "~/Library/Application Support/Sxitch",
-    "~/Library/Preferences/app.sxitch.plist",
     "~/Library/Caches/app.sxitch",
+    "~/Library/Preferences/app.sxitch.plist",
   ]
 end
