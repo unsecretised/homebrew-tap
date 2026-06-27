@@ -11,7 +11,7 @@ cask "sxitch" do
   # but if you must keep it, Homebrew will ignore it anyway.
 
   auto_updates false
-  depends_on macos: :monterey
+  depends_on macos: :sequoia
 
   app "Sxitch.app"
 
