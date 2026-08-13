@@ -1,6 +1,6 @@
 cask "sxitch" do
-  version "1.3"
-  sha256 "530d346681e3c3e47956a8626b544075a8a54017e451730f2d5e8b3980edb885"
+  version "1.3.1"
+  sha256 "0becd93f935cdc6c207d9e77624a9eaee8cffebbeb1e0f065cc0a5dcbce40005"
 
   url "https://pub-de38f9dc4d154d119d16caaa9a29824b.r2.dev/v#{version}/Sxitch.app.zip",
       verified: "pub-de38f9dc4d154d119d16caaa9a29824b.r2.dev/"
