@@ -5,7 +5,7 @@ cask "sxitch" do
   url "https://pub-de38f9dc4d154d119d16caaa9a29824b.r2.dev/v#{version}/Sxitch.app.zip",
       verified: "pub-de38f9dc4d154d119d16caaa9a29824b.r2.dev/"
   name "Sxitch"
-  desc "Tree-based macOS app switcher"
+  desc "Tree-based app switcher"
   homepage "https://sxitch.app/"
 
   livecheck do
